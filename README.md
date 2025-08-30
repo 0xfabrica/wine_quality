@@ -20,8 +20,7 @@ Este repositorio contiene un notebook que explora, procesa y modela el dataset d
 
 ```
 📁 repo/
-  ├─ modelos/
-  │   └─ xgb_model.json               # modelo XGBoost guardado
+  ├─ xgb_model.json                    # modelo XGBoost guardado
   ├─ notebook.ipynb                    # notebook principal
   ├─ requirements.txt                  # dependencias del proyecto
   └─ README.md                         # documento que estás leyendo
@@ -77,7 +76,7 @@ pip install -r requirements.txt
 7. **Balanceo con SMOTE**
 8. **Modelado**: RandomForest (baseline) y XGBoost (modelo final)
 9. **Evaluación**: accuracy, classification\_report, confusion\_matrix
-10. **Guardado de modelo**: `modelos/xgb_model.json`
+10. **Guardado de modelo**: `xgb_model.json`
 
 ---
 
