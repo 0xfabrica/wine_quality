@@ -90,12 +90,11 @@ pip install -r requirements.txt
 
 * **XGBoost (modelo final)**
 
-  * Accuracy: \~0.77
-  * Weighted F1: \~0.76
-  * Fuerte en clase `Alta`, estable en `Media`, pobre en `Baja` por escasez de datos.
+  * Accuracy: \~0.765
+  * Weighted F1: \~0.77
+  * Fuerte en clase `Alta`, estable en `Media`, más o menos pobre en `Baja` por escasez de datos.
 
-**Interpretación**: XGBoost es la mejor opción actual para predecir vinos de calidad `Alta`. La clase `Baja` requiere más datos.
-
+**Interpretación**: XGBoost es la mejor opción actual para predecir vinos de calidad `Alta` y `Media`, la `Baja` es algo peor.
 ---
 
 ## Próximos pasos recomendados
@@ -104,6 +103,13 @@ pip install -r requirements.txt
 2. Implementar una API (FastAPI/Flask) para servir el modelo.
 
 ---
+
+## Matriz de Confusión
+
+<img width="649" height="547" alt="download" src="https://github.com/user-attachments/assets/074c9995-2150-44c1-abd4-d714825706da" />
+
+---
+
 
 ## Archivos generados
 
