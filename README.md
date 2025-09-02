@@ -109,6 +109,32 @@ pip install -r requirements.txt
 
 <img width="649" height="547" alt="download" src="https://github.com/user-attachments/assets/074c9995-2150-44c1-abd4-d714825706da" />
 
+### 🔎 Matriz de confusión (clases 0 = Baja, 1 = Media, 2 = Alta)
+
+#### Clase 0 (Baja, fila 0):
+
+- Predichos como 0 (correctos): 7
+- Predichos como 1: 2
+- Predichos como 2: 4
+
+👉 Muy poquitos ejemplos de clase “Baja” y el modelo los confunde bastante.
+
+#### Clase 1 (Media, fila 1):
+
+- Predichos como 1 (correctos): 100
+- Predichos como 0: 5
+- Predichos como 2: 31
+
+👉 El modelo reconoce bien la clase Media, pero confunde bastantes como “Alta”.
+
+#### Clase 2 (Alta, fila 2):
+
+- Predichos como 2 (correctos): 138
+- Predichos como 1: 31
+- Predichos como 0: 2
+
+👉 El modelo también reconoce bastante bien la clase Alta, aunque a veces los manda a Media.
+
 ---
 
 
