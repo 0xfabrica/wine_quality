@@ -95,6 +95,7 @@ pip install -r requirements.txt
   * Fuerte en clase `Alta`, estable en `Media`, más o menos pobre en `Baja` por escasez de datos.
 
 **Interpretación**: XGBoost es la mejor opción actual para predecir vinos de calidad `Alta` y `Media`, la `Baja` es algo peor.
+
 ---
 
 ## Próximos pasos recomendados
